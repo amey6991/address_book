@@ -1,0 +1,625 @@
+#idMainContainer{
+	margin-left: auto;
+    margin-right: auto;
+    width: 83%;
+    font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+}
+
+#idBodyContainer{
+    width:1000px;
+    top:3px;
+    position: relative;
+}
+
+#idLeftColumn{
+    width:135px;
+    float:left;
+    text-align:left;
+}
+
+#idRightColumn{
+    width:135px;
+    float:right;
+    text-align:left;
+    right:0px;
+    position:absolute;
+    z-index: 200;
+}
+
+#idMiddleColumn{
+    width:860px;
+    float: left;
+    left: 3px;
+    margin-top: 0px;
+    text-align:left;
+    position: relative;
+    z-index: 100;
+}
+
+#idMiddleColumn a{
+    text-decoration: none;
+}
+
+#idMiddleColumn a:hover{
+    text-decoration: none;
+    text-transform: none;
+}
+
+#idFooter{
+    top:7px;
+    left: 0px;
+    width:1000px;
+    position: relative;
+    float:left;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    background-color: #052746;
+    font-size: 10px;
+    font-weight: normal;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 20px;
+    text-align:center;
+    background: rgb(33, 145, 192);
+    line-height: 15px;
+}
+
+#idFooter a{
+   text-decoration: none;
+   color: #ffffff;
+   text-transform: none;
+}
+
+/*****CSS for Panels*****/
+
+.classPanel{
+    width: 100%;
+    margin-bottom: 10px;    
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    border-color: #052746;
+}
+
+.classPanelHeading{
+    color: #FFFFFF;
+    background-color: #052746;
+    border-color: #052746;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.classPanelTitle{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: inherit;
+    padding-left: 10px;
+    line-height : 30px;
+}
+
+.classPanelBody{padding: 10px;}
+.classBtnPanel{
+    -moz-border-radius: 2px 2px 2px 2px;
+    width:860px;
+    background-color:#1A2226;
+    float:left;
+    left: 3px;
+    position:relative;
+    color:#ffffff;
+    font-size:12px;
+    left: 0px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top:7px;
+}
+
+.classBtnPanelInternal{
+    -moz-border-radius: 2px 2px 2px 2px;
+    width:835px;
+    background-color:#1A2226;
+    float:left;
+    left: 3px;
+    position:relative;
+    color:#ffffff;
+    font-size:12px;
+    left: 0px;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-top:7px;
+}
+
+.classSubPanelHeading{
+    color: #FFFFFF;
+    background-color: #357;
+    border-color: #357;
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+
+.classSubPanelTitle{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: inherit;
+    padding-left: 10px;
+    line-height : 35px;
+}
+
+
+.classMandatorySign{color: red;}
+
+/***********************************/
+
+.classInternalDashBtn{width: 200px;height: 70px;margin-top: 5px;}
+
+.classImagePatientDivMain{width: 200px;}
+.classImagePatientSpan{
+    margin-left: 10px;
+    border-radius: 2px; 
+    width: 100px; 
+    height: 100px; 
+    float: left; 
+    border: 1px dotted #abc; 
+    background-color: #f2f2ff;
+}
+
+.classSelectBox{width: 200px;}
+.classSelectBoxS{width: 150px;}
+.classSelectBoxXS{width: 100px;}
+.classSelectBoxL{width: 250px;}
+.classSelectBoxXL{width: 300px;}
+.classSelectBoxXXL{width: 350px;}
+.classSelectBoxXXXL{width: 400px;}
+.classSelectBoxBlock{width: 100%;}
+
+
+/**************OPD Billing*********************/
+.classWarning{font-weight: bold;color: #f0ad4e;font-size: 14px;}
+#containerDiv #containerData input[type="text"].classInputTextWarning{color: #f0ad4e;border:1px solid #f0ad4e;}
+.classSuccess{font-weight: bold;color: #67b168;font-size: 14px;}
+#containerDiv #containerData input[type="text"].classInputTextSuccess{color: #67b168;border:1px solid #67b168;}
+.classDanger{font-weight: bold;color: #843534;font-size: 14px;}
+#containerDiv #containerData input[type="text"].classInputTextDanger{color: #843534;border:1px solid #843534;}
+
+.classInvDashboardBtn{width: 200px;height: 70px;margin-top: 5px;}
+
+td.classTextAlignCenter{text-align: center;}
+.form-horizontal .control-label{text-align: left;}
+.classSpanData{font-size: 14px;}
+
+/**********************************************************/
+.classScheManagerTlbHeader{
+    height: 20px; background-color: rgb(26, 34, 38); color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;
+}
+
+/*********Breadcrumb CSS*********/
+
+.classBreadcrumb{
+  overflow: hidden;
+  width: 820px;
+  margin-left: 0px;
+}
+
+.classBreadcrumb li{
+  float: left;
+  margin: 0 .5em 0 1em;
+  list-style: none;
+}
+
+.classBreadcrumb a{
+  background: #EDC991;
+  padding: 5px;
+  float: left;
+  text-decoration: none;
+  color: #444;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+  position: relative;
+}
+
+.classBreadcrumb a:hover{
+  //background: #99db76;
+}
+
+.classBreadcrumb a::before{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-width: 1.5em 0 1.5em 1em;
+  border-style: solid;
+  border-color: #EDC991 #EDC991 #EDC991 transparent;
+  left: -1em;
+}
+
+.classBreadcrumb a:hover::before{
+  //border-color: #99db76 #99db76 #99db76 transparent;
+}
+
+.classBreadcrumb a::after{
+  content: "";
+  position: absolute;
+  top: 50%; 
+  margin-top: -1.5em;   
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+  border-left: 1em solid #EDC991;
+  right: -1em;
+}
+
+.classBreadcrumb a:hover::after{
+  //border-left-color: #99db76;
+}
+
+
+.classBreadcrumb .classCurrentBreadcrumb,
+.classBreadcrumb .classCurrentBreadcrumb:hover{
+  font-weight: bold;
+  background-color: #99db76;
+}
+
+.classBreadcrumb .classCurrentBreadcrumb::after{
+    border-left-color: #99db76;
+}
+
+.classBreadcrumb .classCurrentBreadcrumb::before{
+    border-color: #99db76 #99db76 #99db76 transparent;
+}
+
+.classMailingManagementBtn{float: right;margin-right: 5px;}
+.classConsultHelperDiv{padding:5px;}
+/************* END ****************/
+
+/********Transaction Billing********/
+
+.classBillHeaderData{
+  //height:190px;
+  margin-bottom:10px;
+
+}
+
+.classBillHeaderSpanData{
+  //border-right:1px solid #eee;
+  //padding-right:5px;
+  width:450px;
+  float:left;
+  margin-bottom:20px;
+  margin-top:15px;
+}
+
+.classLabelBill{
+  padding-right:2px;
+  font-weight:bold;
+}
+
+.classLabelBillData{
+  padding-right: 12px;
+  font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+}
+
+.classBillLeftWidgetData{
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.classBillData{
+  display: inherit;
+}
+
+.classLabelBillData1,.classTotalAmountLabelBill{
+  font-weight: bold;
+  color:red;
+  font-size:13px;
+}
+
+.classBillRightWidget{
+  float: right;
+  //height: 310px;
+  margin-top:10px;
+}
+
+.classBillLeftWidget{
+  //float: left;
+}
+
+.classScoreImage{
+  padding-right:50px;
+  height: 330px;
+  width: 240px;
+}
+
+.classBillLeftWidget{
+  //float: left;
+}
+
+.classTableBillHeading{color: #317eac;text-transform: uppercase;}
+.classBillAddress{float: right;margin-top: -100px;text-align: right}
+.classMemberPhoto{width: 100px;height: 100px;}
+.classClientLogo{//width: 200px;height: 100px;}
+
+
+.classScheduleStatusButton-1 {
+  /* Not Completed Button */
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#bd362f));
+  background-image: -webkit-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: -o-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
+  background-repeat: repeat-x;
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b',endColorstr='#ffbd362f',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.classScheduleStatusButton0 {
+  /* Scheduled Button */
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#2f96b4));
+  background-image: -webkit-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: -o-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: linear-gradient(to bottom,#5bc0de,#2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de',endColorstr='#ff2f96b4',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.classbadgeBackground0{
+  background-color:#49afcd; 
+}
+.classbadgeBackground1{
+  background-color:#006dcc; 
+}
+.classbadgeBackground0:hover{
+  background-color:rgba(12, 99, 152, 0.97);
+}
+.classbadgeBackground1:hover{
+  background-color:rgba(0, 40, 194, 0.8);
+}
+.classScheduleEngageColor:hover{
+  background-color:rgba(169, 109, 6,0.8);
+}
+.classScheduleCheckedColor:hover{
+  background-color:rgba(6, 231, 9, 0.66);
+}
+
+.classScheduleStatusButton1 {
+  /* Patient Arrived Button */
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top,#08c,#04c);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));
+  background-image: -webkit-linear-gradient(top,#08c,#04c);
+  background-image: -o-linear-gradient(top,#08c,#04c);
+  background-image: linear-gradient(to bottom,#08c,#04c);
+  background-repeat: repeat-x;
+  border-color: #04c #04c #002a80;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.classScheduleStatusButton2 {
+  /* Patient Arrived Button */
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top,#fbb450,#f89406);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#fbb450),to(#f89406));
+  background-image: -webkit-linear-gradient(top,#fbb450,#f89406);
+  background-image: -o-linear-gradient(top,#fbb450,#f89406);
+  background-image: linear-gradient(to bottom,#fbb450,#f89406);
+  background-repeat: repeat-x;
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffbb450',endColorstr='#fff89406',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.classScheduleStatusButton3 {
+  /* Checked out Button */
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top,#62c462,#51a351);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+  background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+  background-image: -o-linear-gradient(top,#62c462,#51a351);
+  background-image: linear-gradient(to bottom,#62c462,#51a351);
+  background-repeat: repeat-x;
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462',endColorstr='#ff51a351',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.classClinicLogo{height: 50px;}
+
+textarea.classActionPlan,
+textarea.classInputTextArea.classActionPlan
+{
+    width: 625px;
+    height:250px;
+       background-image: -webkit-linear-gradient(white, white 20px, #ccc 20px, #ccc 21px, white 21px);
+    background-image: -moz-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: -ms-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: -o-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    background-image: linear-gradient(white, white 20px, #ccc 20px, #ccc 21px, white 21px);
+    background-size: 100% 21px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 21px;
+    /*font-family: Arial, Helvetica, Sans-serif;*/
+    font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+    padding-left: 8px;
+}
+
+.notification-unread{
+  background-color: #d9edf7;
+}
+.notification-unread .unread-marker{
+  display: none;
+}
+.notification-read .read-marker{
+  display: none;
+}
+
+.editableform .editable-submit{
+  display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #cccccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #006dcc;
+    background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+    background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+    background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+    margin-top: 5px;
+}
+
+.editableform .editable-cancel{
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #cccccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #b3b3b3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin-top: 5px;
+  margin-left: 5px;
+}
+.editable-input input[type="text"]{
+  height: 30px;
+}
+.classLargeModal {
+  width: 70%;
+  left: 36%;
+  overflow: hidden;
+}
+
+a.classDashboardBtn{
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #3E4651;
+
+  font-size: 30px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+  -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+  box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+
+  -webkit-transition: background-color 100ms linear;
+  -moz-transition: background-color 100ms linear;
+  -o-transition: background-color 100ms linear;
+  -ms-transition: background-color 100ms linear;
+  transition: background-color 100ms linear;
+}
+
+a.classDashboardBtn:hover{
+  background: #282d34;
+  text-decoration: none;
+
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow:    2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+  box-shadow:         2px 2px 6px 0px rgba(50, 50, 50, 0.5);
+}
+
+.classDashboardMessage {
+  width: 725px;
+}
+.classSmTopSpacing{
+  margin-top: 10px;
+}
+.classSmBottomSpacing{
+  margin-bottom: 10px;
+}
+.classNoTopSpacing{
+  margin-top: 0;
+}
+.classDoctorAvailModal{
+  width: 90%;
+  margin-left: -45%;
+}
+.classDoctorAvailModal .select2-container{
+  text-align: left;
+}

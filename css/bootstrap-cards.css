@@ -1,0 +1,145 @@
+.card {
+  position: relative;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-clip: padding-box;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+}
+.card span.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.card .card-content {
+  padding: 23px 15px 15px 15px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.card .card-content p {
+  margin: 0;
+  color: inherit;
+}
+.card .card-content span.card-title {
+  line-height: 25px;
+}
+.card .card-action {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 6px;
+}
+.card .card-action a {
+  color: #ffab40;
+  margin-right: 16px;
+  transition: color 0.3s ease;
+  text-transform: uppercase;
+}
+.card .card-action a:hover {
+  color: #ffd8a6;
+  text-decoration: none;
+}
+
+.card.flat-card{
+  border-radius: 0px;
+}
+
+.card.flat-card .card-content{
+  border-radius: 0px;
+}
+
+.card.flat-card .card-content .fa{
+  /*color: #aaa;*/
+}
+
+.card.flat-card .label{
+  border-radius: 0px;
+}
+
+.card .card-top-left-corner-label{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 0.1em .5em .2em;
+}
+
+.card .card-top-right-corner-label{
+  position: absolute;
+  top: 2px;
+  right: 7px;
+  font-weight: 300;
+}
+
+.card-yellow{
+  border-color: #F1C40F;
+}
+
+.card-yellow .label.card-top-left-corner-label{
+  background: #F1C40F;
+}
+
+.card-yellow .fa,
+.card-yellow .glyphicon{
+  color: #F1C40F;
+}
+
+.card-red{
+  border-color: #E74C3C;
+}
+
+.card-red .label.card-top-left-corner-label{
+  background: #E74C3C;
+}
+
+.card-red .fa,
+.card-red .glyphicon{
+  color: #E74C3C;
+}
+
+
+.card-blue{
+  border-color: #3498DB;
+}
+
+.card-blue .label.card-top-left-corner-label{
+  background: #3498DB;
+}
+
+.card-blue .fa,
+.card-blue .glyphicon{
+  color: #3498DB;
+}
+
+
+.card-green{
+  border-color: #1ABC9C;
+}
+
+.card-green .label.card-top-left-corner-label{
+  background: #1ABC9C;
+}
+
+.card-green .fa,
+.card-green .glyphicon{
+  color: #1ABC9C;
+}
+
+.card-orange{
+  border-color: #f39c12;
+}
+
+.card-orange .label.card-top-left-corner-label{
+  background: #f39c12;
+}
+
+.card-orange .fa,
+.card-orange .glyphicon{
+  color: #f39c12;
+}
+
+.card-completed{
+  opacity: 0.3;
+  background: #eee;
+}

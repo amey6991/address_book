@@ -1,0 +1,72 @@
+.classSearch{
+    margin-left: 29%;
+    width: 31%;
+}
+.classLabelSolrSearch{
+	margin-top: 20%;
+    margin-left: 29%;	    
+}
+.classShorTotalRecordFoundLable{
+	margin-left: 31%;
+}
+.classShowMatchedDocuments{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.classLabelSolrSearchResponse{
+    margin-left: 29%;
+    width: 35%;
+}
+.classLabelSolrNoMatchFound{
+	margin-left: 18%;
+}
+
+.classDivCustomFieldsContents{
+	 margin-left: 29%;
+	 margin-top: 1%;
+}
+.classCustomFieldTextbox{
+	width: 33%;
+}
+
+.classDivButtonCustomField{
+	 margin-left: 29%;
+	 margin-top: 1%;
+}
+.classButtonCustomFields{
+    padding: 4px 21px;
+    border: 1px solid;
+    border-color: #A9A9A9;
+    border-radius: 1px;    
+    background-color: #EBEBEB;
+}
+
+#idSearch{
+	padding: 7px 0px;
+}
+#idButtonSearchSubmit{
+	padding: 7px 21px;
+}
+
+.classPageHeader{
+	margin-left: 10%;
+	margin-top: 1%;	
+}
+.classPageContents{
+	margin-left: 10%;
+}
+
+.classFormElements{
+	padding-bottom: 1%;
+	width: 100%;
+}
+
+.classDivLabel{
+	width: 50%;
+}
+.classDivElements{
+	width: 50%;
+}
+.classTextBox{
+	width: 33%;
+}

@@ -1,0 +1,156 @@
+html, 
+body,
+.classTaskManagerWindow,
+.classTaskManagerWindow .classTaskLists,
+.classTaskManagerWindow .classTaskViewer{
+    height: 100%;
+}
+
+.classTaskManagerOverlay{
+	-webkit-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.30);
+	-moz-box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.30);
+	box-shadow: -1px 0px 5px 1px rgba(0,0,0,0.30);
+
+	min-height: 400px;
+}
+
+.classTaskRow{
+	border-bottom: 1px solid #ccc;
+	min-height: 30px;
+	font-size: 14px;
+	line-height: 100%;
+	overflow: hidden;
+}
+
+.classTaskRow.classTaskCompletedRow > *{
+	opacity: 0.6;
+}
+
+.classTaskRow.classTaskCompletedRow .classTaskTitleControl{
+	text-decoration: line-through;
+}
+
+.classTaskRow:hover{
+	border-bottom: 1px solid #bbb;
+}
+
+.classTaskManagerOverlay .classFirstTaskContainer .classTaskRow{
+	border-top: 1px solid #ccc;
+}
+
+
+.classNonTaskRow:hover{
+	cursor: pointer;
+}
+.classNonTaskRow .classNonTaskPlaceholder{
+	opacity: 0;
+	padding: 10px;
+	font-size: 12px;
+	line-height: 18px;
+
+	transition: opacity .10s ease-in-out;
+    -moz-transition: opacity .10s ease-in-out;
+    -webkit-transition: opacity .10s ease-in-out;
+}
+.classNonTaskRow:hover .classNonTaskPlaceholder{
+	opacity: 0.8;
+}
+
+.classTaskCheckboxColumn{
+	padding-top: 5px;
+}
+
+.classTaskCheckboxColumn{
+	width: 5%;
+}
+.classTaskTitleColumn{
+	width: 65%;
+}
+.classTaskActionColumn{
+	width: 30%;
+}
+
+.classTaskRow .classTaskTitleColumn .classTaskTitleControl{
+	width: 100%;
+	height: 100%;
+	border: none;
+	box-shadow: none;
+	border-radius: none;
+}
+
+.classTaskAssignControl{
+	width: 200px;
+}
+
+.classTaskActionColumn > a.btn{
+	color: black;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.classTaskActionColumn > .label{
+	font-size: 70%;
+}
+
+.classTaskManagerWindow .classTaskLists{
+	width: 100%;
+}
+
+.classTaskManagerWindow .classTaskViewer{
+	width: 0%;
+    display: none;
+    border-left: 1px solid #ccc;
+}
+
+.classTaskManagerWindow.classTaskViewerOpen .classTaskLists{
+	width: 70%;
+}
+
+.classTaskManagerWindow.classTaskViewerOpen .classTaskViewer{
+	width: 30%;
+    display: block;
+}
+
+
+.classTaskViewerNavbar{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.classTaskViewerNavbar .select2-container .select2-selection--single{
+	height: 30px;
+}
+
+.classTaskViewer .classTaskViewerTitle,
+.classTaskViewer .classTaskViewerDescription{
+	padding: 10px 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-transition : border 500ms ease-out;
+	-moz-transition : border 500ms ease-out;
+	-o-transition : border 500ms ease-out;
+	transition : border 500ms ease-out;
+	outline: none;
+}
+
+.classTaskViewer .classTaskViewerTitle:hover,
+.classTaskViewer .classTaskViewerDescription:hover,
+.classTaskViewer .classTaskViewerTitle:focus,
+.classTaskViewer .classTaskViewerDescription:focus{
+	border: 1px solid #666;
+}
+
+.classTaskViewerDescription{
+	min-height: 100px;
+}
+
+[contenteditable=true]:empty:before {
+  content: attr(placeholder);
+  display: block; /* For Firefox */
+  color: #ccc;
+  opacity: 0.9;
+}
+
+.classFilterDropdownMenu{
+	width: 200px;
+}

@@ -1,0 +1,116 @@
+body{
+  font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+  padding-top: 50px;
+}
+body.stickyMedixcelFooter{
+	padding-bottom: 30px;
+}
+
+body.stickyMedixcelFooter .classMedixcelFooter{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.fa.fa-1x5x{
+	font-size: 1.2em;
+}
+
+.navbar-custom { background-color: #3E4651}
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus { 
+	background-color: rgba(34, 167, 240, 0.50)
+}
+.navbar-custom .navbar-nav>.active>a,.navbar-custom .navbar-nav>.open>a,.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover,.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus { background-color: #22A7F0}
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus{ 
+	background-color: #22A7F0
+}
+.navbar-custom { border-color: #080808}
+.navbar-custom .navbar-brand { color: #FFFFFF}
+.navbar-custom .navbar-brand:hover { color: #FFFFFF}
+.navbar-custom .navbar-nav>li>a { color: #FFFFFF}
+.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-custom .navbar-nav>.active>a,.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-custom .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-custom .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-custom .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-custom .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+.navbar-custom{border-radius: 0}
+.navbar-custom .navbar-form .date .input-group-addon{background: #337ab7; color: white; border-color: #337ab7}
+.navbar-custom.navbar{margin-bottom: 10px}
+
+.classTopSpacing{
+	margin-top: 20px;
+}
+.classBottomSpacing{
+	margin-bottom: 20px;
+}
+
+.classSmTopSpacing{
+	margin-top: 10px;
+}
+.classSmBottomSpacing{
+	margin-bottom: 10px;
+}
+.classSmLeftSpacing{
+	margin-left: 10px;
+}
+.classSmRightSpacing{
+	margin-right: 10px;
+}
+
+.classFullHeight{
+	height: 100%;
+}
+.classLeftSpacing{
+	margin-left: -496px;
+}
+
+.classLabelFilterType{
+	margin-left: 135px;
+    margin-top: 33px;
+}
+
+.classTextBoxGroupName{
+	    width: 250px;
+}
+
+/*.classSelectBoxFilterType{
+	width: 250px;
+    margin-left: 241px;
+    margin-top: -30px;
+}*/
+
+.classButtonAddNewGroup{
+	margin-top: -65px;
+    margin-left: 869px;
+}
+
+.classHeading{
+	margin-left: 104px;
+}
+
+.classMedixcelFooter{
+	background-color: #3E4651;
+	color: white;
+	padding: 8px;
+	font-size: 11px;
+	line-height: 10px;
+	-webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.25);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.25);
+    box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.25);
+}
+
+.classMedixcelFooter a{
+	color: white;
+	font-weight: bold;
+}
+
+.classMedixcelFooter a:hover{
+	color: #ccc;
+}

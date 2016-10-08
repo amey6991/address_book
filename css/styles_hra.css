@@ -1,0 +1,1366 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{border: 0px;
+/*font-family: inherit;*/
+font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+font-size: 100%;
+font-style: inherit;
+font-weight: inherit;
+margin: 0px;
+outline: 0px;
+padding: 0px;
+vertical-align: baseline;;
+}
+/*
+    generic and incentive message styles
+*/
+.successMessage {
+    color:#25b718;
+    width:610px;
+    font-weight:bold;
+    font-size:10pt;
+    text-align:center;
+}
+
+.incentiveMessage, .incentiveMessage a {
+    color:#df9b08;
+    font-weight:bold;
+    font-size:10pt;
+}
+
+.incentiveMessage {
+    width:610px;
+    text-align:center;
+}
+
+.incentiveMessageIcon {
+    background-image:url(/dt/pl/corp/images/gold_coin.jpg);
+    height:18px;
+    width:16px;
+    display:inline-block;
+}
+
+/*
+    Styles for two tab headers 
+*/
+.tabRightCorner {
+    background-image:url(/dt/pl/corp/images/rounded/tabClearRight.gif);
+    width:246px;
+    height:39px;
+}
+
+.dt1TabText, .dt2TabText
+{
+    color:#ffffff;
+	padding-left:10px;	
+	font-weight:bold;
+	font-size:10pt;
+	letter-spacing:1px;
+	line-height:33px;
+	width:175px;
+	height:39px;
+}
+.dt2TabText
+{
+	padding-left:13px;	
+	width:179px;
+}
+
+.dt2TabLeftTab, .dt2TabLeftTabHighlight {
+    width:175px;
+    height:39px;
+    background-color:#3878da;
+    background-image:url(/dt/pl/corp/images/rounded/clearTab.png);
+}
+
+.dt2TabRightTab, .dt2TabRightTabHighlight {
+    width:179px;
+    height:39px;
+    background-color:#3878da;
+    background-image:url(/dt/pl/corp/images/rounded/clearTab2.png);
+}
+
+.dt2TabLeftTabHighlight, .dt2TabRightTabHighlight {
+    background-color:#6d9de6;
+}
+
+
+.dt2TabBody
+{
+    border-left:solid 1px #ffc936;
+    border-right:solid 1px #ffc936;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100%;
+}
+.dt2TabBottom
+{
+    background-image:url(/dt/pl/corp/images/rounded/2_tab_bottom.gif);
+    width:600px;
+    height:6px;
+}
+/*
+    END Styles for two tab headers 
+*/
+
+
+.dtOrangeTextSmall 
+{
+	color:#0877be;
+}
+
+.dtMotivationText
+{
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.dtRoundtop {background: url(/dt/pl/corp/images/rounded/b_dot.gif) 0 0 repeat-x; }
+.dtRoundbottom {background: url(/dt/pl/corp/images/rounded/b_dot.gif) 0 100% repeat-x}
+.dtRoundleft {background: url(/dt/pl/corp/images/rounded/b_dot.gif) 0 0 repeat-y}
+.dtRoundright {background: url(/dt/pl/corp/images/rounded/b_dot.gif) 100% 0 repeat-y}
+.dtRoundbottom_left {background: url(/dt/pl/corp/images/rounded/b_bl.gif) 0 100% no-repeat}
+.dtRoundbottom_right {background: url(/dt/pl/corp/images/rounded/b_br.gif) 100% 100% no-repeat}
+.dtRoundtop_left {background: url(/dt/pl/corp/images/rounded/b_tl.gif) 0 0 no-repeat}
+.dtRoundtop_right {background: url(/dt/pl/corp/images/rounded/b_tr.gif) 100% 0 no-repeat;}
+
+
+.dtMealPlanBack
+{
+    background-color:#e0dfc2;
+    
+}
+.dtMealPlannerPadding
+{
+    padding-top:3px;
+    padding-bottom:2px;
+}
+.dtMealPlannerTotalsPadding
+{
+    padding:5px;
+}
+.dtTableBorderTop
+{
+	BORDER-TOP: #669999 thin solid;
+}
+
+.dtTableBorderBottom
+{
+    BORDER-RIGHT: #9ECFC8 1px;
+    BORDER-TOP: #9ECFC8 1px;
+    BORDER-LEFT: #9ECFC8 1px;
+    BORDER-BOTTOM: #9ECFC8 1px solid
+}
+
+.feuxLink {
+    cursor: pointer; 
+    cursor: hand;
+    text-decoration:none;
+}
+.feuxLink:hover {        
+    text-decoration:underline;
+}
+
+.PageSectionHeader {
+    font-weight:bold;
+    color: #0877BE;
+}
+
+.fakeButton {
+    cursor:pointer;
+    border-top:solid 1px #a5c90d; 
+    border-bottom:solid 1px #769009;
+    background-image:url(/dt/pl/corp/images/buttons/btnbg_middle.gif);
+    background-repeat:repeat-x;
+    color:#ffffff; 
+    display:block; 
+    text-decoration:none;
+}
+
+.fakeLink {
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+
+
+.dtOrangeText, .FLHeader 
+{
+	text-decoration:none;
+	font-weight:bold;
+	color:#0877be;
+}
+
+.dtBlogLink {
+    font-size:8pt;
+}    
+
+
+.hidden {display:none;}
+.show {display:block;}
+
+.dtLeftNavHeaderBack {
+    font-size:8pt;
+    color: #ffffff; 
+    /*font-family:'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;*/
+     font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+    text-align:center;
+    text-decoration:none;
+    
+}
+
+BODY
+{
+    background-color: #ffffff;
+    
+    color:#1a1a1a;
+}
+
+*{
+	font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+    /*font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;*/
+    
+	color:#1a1a1a;
+	font-size:11px;
+}
+
+DIV{-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+
+#MainContent 
+{
+    padding-left:10px;
+}
+
+.bannerTable
+{
+    BORDER-RIGHT: #ffe7a5 1px solid;
+    BORDER-TOP: #ffe7a5 1px solid;
+    BORDER-LEFT: #ffe7a5 1px solid;
+    BORDER-BOTTOM: #ffe7a5 1px solid
+}
+
+.dtWellnessPlan
+{
+   border-left: #c4c6c8 1px solid;
+   border-right:  #c4c6c8 1px solid;
+   background-color: #f0f3fa;
+   padding:5px;
+} 
+
+.tabbedHeader 
+{
+	background: url(/dt/pl/TemplateBlue/images/blueTabTop.gif) no-repeat;
+	width:240px;
+	height:38px;
+	font-size:10px;
+}
+
+.whiteTabbedHeader 
+{
+	background: url(/dt/pl/TemplateBlue/images/whiteTabTop.gif) no-repeat;
+	width:240px;
+	height:38px;
+	font-size:10px;
+}
+
+.whiteTabbedHeaderWide 
+{
+	background: url(/dt/pl/TemplateBlue/images/whiteTabHeaderLG.gif) no-repeat;
+	width:480px;
+	height:38px;
+	font-size:10px;
+}
+
+.tablessHeader
+{
+	background: url(/dt/pl/TemplateBlue/images/blueTop.gif) no-repeat;
+	width:240px;
+	height:6px;
+	font-size:1px;
+}
+
+.tabbedHeaderText 
+{
+	color:#ffffff;
+	padding-left:10px;
+	line-height:35px;
+	font-weight:bold;
+	font-size:10pt;
+	letter-spacing:1px;
+}
+
+
+.tabbedBodyText 
+{
+	background-color:#e6eef9;
+	width:240px;
+	height:60px;
+   	font-size:10pt;
+}
+
+.whiteTabbedBodyText
+{
+	background-color:#ffffff;
+	width:240px;
+	padding-left:8px;
+	background: url(/dt/pl/TemplateBlue/images/whiteTabBackground.gif) repeat-y;
+	overflow:auto;
+}
+
+.whiteTabbedBodyTextWide
+{
+	background-color:#ffffff;
+	width:480px;
+	padding-left:8px;
+	background: url(/dt/pl/TemplateBlue/images/whiteTabBackgroundLG.gif) repeat-y;
+	overflow:auto;
+}
+
+.whiteTabbedBodyBorderBottom
+{
+    BORDER-BOTTOM: #ffbc06 1px solid;
+}
+
+.tabbedFooter
+{
+	background: url(/dt/pl/TemplateBlue/images/blueTabBottom.gif) no-repeat;
+	width:240px;
+	height:8px;
+}
+
+
+.whiteTabbedFooter
+{
+	background: url(/dt/pl/TemplateBlue/images/whiteTabBottom.gif) no-repeat;
+	width:240px;
+	height:8px;
+}
+
+.whiteTabbedFooterWide
+{
+	background: url(/dt/pl/TemplateBlue/images/whiteTabBottomLG.gif) no-repeat;
+	width:480px;
+	height:8px;
+}
+
+
+.startLink
+{
+	color:#3779da;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:10pt;
+}
+
+.dashboardText 
+{
+	font-size:11px;
+	color:#000000;
+}
+
+.dashboardText a 
+{
+	color:#000000;
+	font-weight:bold;
+}
+
+
+/* ******* BEGIN EBSCO CONTENT STYLES ************** */
+#HLContent:after { content: "."; display: block; height: 0em; clear: both; visibility: hidden; }
+#HLContent { _height: 1%; }
+
+/* Basic formatting rules */
+#HLContent table { border: 0px solid #000; border-collapse: collapse; }
+#HLContent td, #HLContent th { vertical-align: top; border: 0px solid #888; padding: 0.5em; font-size:12px;}
+#HLContent .Image { float: left; margin: 0.5em 1em 0.5em 0em; }
+#HLContent .Figure .Image { float: none; }
+#HLContent .FigureCaption, #HLContent .FigureCredit { font-size: smaller; }
+#HLContent .BackMatter { border-top: 1px solid #000; margin-top: 2em; padding-top: 1em; }
+#HLContent .ResourceItem { margin: 1em auto; }
+#HLContent ul, #HLContent ol { padding-left: 0em; margin-top: 0em; margin-left: 0em; }
+#HLContent li { margin-left: 2em; padding-bottom: 0.35em; }
+#HLContent .IndexSectionGroup { float: left; width:48%; padding: 0% 1% 0% 0%; }
+#HLContent .FrontMatter .IndexNav,
+#HLContent .EBSCOLinks { list-style: none; margin: 1em 0em; }
+#HLContent .FrontMatter .IndexNav li,
+#HLContent .EBSCOLinks li { display: inline; margin-left: 0em; padding: 0em 0.25em 0em 0em; }
+#HLContent .ResourceItem p, 
+#HLContent .IndexSectionHeader, 
+#HLContent .ListHeader { margin: 0px auto; }
+#HLContent .IndexSection { clear: both; }
+
+/* Typography rules, change the first rule's percentage to scale all fonts */
+#HLContent { /*font-family: verdana, sans-serif;*/ font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif; font-size: 80%; }
+#HLContent h1 { font-size: 1.6em; margin-top: 0em; margin-bottom: 0.5em; }
+#HLContent h2 { font-size: 1.4em; margin-top: 1.5em; margin-bottom: 0.5em; }
+#HLContent .Section .Section h2, #HLContent .Section .IndexSection h2 { font-size: 1.2em; }
+#HLContent .BackMatter { font-size: 0.8em;}
+#HLContent .SubHead { font-weight: bold; }
+#HLContent .SmallCaps { font-size:smaller; text-transform:uppercase; }
+#HLContent .SuperScript { vertical-align:super; font-size:smaller; }
+#HLContent .SubScript { vertical-align:super; font-size:smaller; }
+#HLContent .UseTreatmentSubGroup { margin: 0.4em 0em; }
+#HLContent li.ListHeader { font-style: italic; }
+#HLContent .section_header {font-size:16px;}
+#HLContent .subsection1_header {font-size:14px;}
+
+#HLContent .image_in_para { float: left; margin: 0.5em 1em 0.5em 0em; }
+#HLContent .index_section_header {font-size:14px; font-weight:bold;}
+
+#HLContent .article_body > a {padding-bottom:60px;}
+/* ******* END EBSCO CONTENT STYLES ************** */
+
+
+/* ************** ELEMENTS SPECIFIC STYLES ************** */
+.ElemBlueLink {
+	font-size: 11pt;
+}
+.ElemBlueLinkSM {
+	font-size: 10pt;
+}
+
+.ElemBlueLinkBG {
+	font-size: 16pt;
+}
+
+.ElemBlueLink, .ElemBlueLinkSM, .ElemBlueLinkBG
+{
+	color:fcaf17;
+	letter-spacing:-1px;
+	text-align:center;
+	/*Font-family:verdana;*/
+     font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+	text-decoration:none;
+}
+
+.ElemBlueLink:hover
+{
+	text-decoration:underline;
+}
+
+/* **************ELEMENTS SPECIFIC STYLES ************** */
+
+a 
+{
+    color:#0a4458;
+}
+
+dtTask
+{	
+    font-weight:normal;
+    font-size: 11px;
+    color: #07519a;	
+    background-color: transparent;
+}
+
+A.dtTask
+{
+    font-weight: bold;
+    
+    color: #07519a;	
+    background-color: transparent;
+    TEXT-DECORATION: underline
+}
+
+A.dtTask:visited
+{
+	text-decoration:underline;
+}
+
+A.dtTaskTools
+{
+    font-weight: bold;
+    
+/*
+    color:#99CC00;	
+    color:#339900;	better
+    color:#5D7F00;
+*/
+    color:#339900;
+    background-color: transparent;
+    TEXT-DECORATION: underline
+}
+
+A.dtTaskTools:visited
+{
+	text-decoration:underline;
+}
+
+p, li
+{
+	font-size: 12px;
+	font-style: normal;
+}
+
+li
+{
+    LINE-HEIGHT: 20pt;
+}
+
+.bannerTable
+{
+    BORDER-RIGHT: #ffe7a5 1px solid;
+    BORDER-TOP: #ffe7a5 1px solid;
+    BORDER-LEFT: #ffe7a5 1px solid;
+    BORDER-BOTTOM: #ffe7a5 1px solid
+}
+.dtWellnessPlan
+{
+   border-left: #c4c6c8 1px solid;
+   border-right:  #c4c6c8 1px solid;
+   background-color: #f0f3fa;
+   padding:5px;
+} 
+A.leftnav
+{
+    font-weight: bold;
+    color: #777777;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: none
+}
+A.leftnav:hover
+{
+    font-weight: bold;
+    color: #777777;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+A.topnav
+{
+    font-weight: bold;
+    color: #ffffff;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: none
+}
+A.topnav:hover
+{
+    font-weight: bold;
+    color: #ff0000;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+.topnavtxt
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    LINE-HEIGHT: 1.5;
+}
+.dtsmall
+{
+    font-weight: bold;
+    font-size: 10px;
+    color: #000000;
+    LINE-HEIGHT: 1.5;
+}
+A.Dashboard
+{
+    font-weight: bold;
+    color: red;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+.dtmessagebox
+{
+    BORDER-RIGHT: #103366 thin solid;
+    BORDER-TOP: #103366 thin solid;
+    PADDING-LEFT: 2px;
+    BORDER-LEFT: #103366 thin solid;
+    BORDER-BOTTOM: #103366 thin solid
+}
+.clsNode
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: black;
+    TEXT-DECORATION: none
+}
+.clsNode:visited
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: black;
+    TEXT-DECORATION: none
+}
+.clsNode:hover
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: blue;
+    TEXT-DECORATION: underline
+}
+.ctTable
+{
+    BORDER-TOP: #c0c0c0 groove;
+    PADDING-LEFT: 5px;
+    BORDER-BOTTOM: #c0c0c0 groove
+}
+.ctRight
+{
+    BORDER-RIGHT: #c0c0c0 groove;
+    PADDING-RIGHT: 5px;
+    PADDING-LEFT: 5px;
+    SCROLLBAR-FACE-color: #cccc99;
+    BORDER-LEFT: #c0c0c0 groove;
+    SCROLLBAR-SHADOW-color: #000000;
+    SCROLLBAR-3DLIGHT-color: #000000;
+    SCROLLBAR-ARROW-color: #000000;
+    SCROLLBAR-TRACK-color: #e7e6cb;
+    SCROLLBAR-DARKSHADOW-color: #ffffff
+}
+.dtTopMenu
+{
+    font-size: 14px;
+    color: white;
+}
+.dtDivMessage
+{
+    font-size: 10pt;
+    BORDER-BOTTOM-color: black;
+    color: #000000;
+    BORDER-TOP-STYLE: groove;
+    BORDER-TOP-color: black;
+    BORDER-RIGHT-STYLE: groove;
+    BORDER-LEFT-STYLE: groove;
+    BORDER-BOTTOM-STYLE: groove
+}
+.LeftNavText
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #777777		;
+    HEIGHT: 20px;
+    TEXT-DECORATION: none
+}
+.dtText
+{ font-weight: bold;
+  font-size: 9pt;
+}
+.classLabelLg
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: #414042;
+}
+classLabelbgLeft
+{
+    background-color: #ffffff;
+    TEXT-ALIGN: left
+}
+.classLabelMed
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #414042;
+}
+.classLabelMedReg
+{
+    font-size: 9pt;
+    color: #414042;
+}
+.classLabelSmall
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #414042;
+}
+.classLabelSmallReg
+{
+    font-size: 8pt;
+    color: #414042;
+}
+.classLabelTiny
+{
+    font-size: 8pt;
+    color: #414042;
+}
+.dtHelpHeader
+{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.dtHelpSubHead
+{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.dtHelpText
+{
+    font-size: 8pt;
+}
+.classLabelbg
+{
+    background-color: #ffffff;
+    TEXT-ALIGN: right
+}
+SELECT.dtCombo
+{
+    font-weight: bold;
+    font-size: 9pt;
+}
+SELECT.dtComboSmall
+{
+    font-weight: normal;
+    font-size: 8pt;
+    BACKGROUND: #f9f1dc;
+}
+.dtHDRText
+{
+    font-weight: bold;
+    font-size: 12pt;
+    color: #006abd;
+}
+.dtTable
+{
+}
+.dtForcePageAfter
+{
+    PAGE-BREAK-AFTER: always
+}
+.dtAutoPageBefore
+{
+    PAGE-BREAK-BEFORE: auto
+}
+.dtPrintLabel
+{
+    font-weight: bold;
+    font-size: 8pt;
+}
+.dtPrintLabelSmall
+{
+    font-weight: bold;
+    font-size: 6pt;
+}
+.dtPrintLabelSmallReg
+{
+    font-size: 6pt;
+}
+.dtRow1
+{
+    font-size: 9pt;
+    color: #000000;
+    background-color:#ffffff;
+   
+}
+.dtRow2
+{
+    font-size: 9pt;
+    color: #000000;
+    background-color:#F2FECC;
+}
+.MealSmallFont
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: black;
+}
+.MealLargeFont
+{
+    font-size: 17px;
+    color: black;
+}
+.dtHTBBackNormal
+{
+}
+.dtHTBBackFocus
+{
+    background-color: #ffffff
+}
+.dtRedText
+{
+    font-weight: 700;
+    background-color: #ff0000
+}
+.dtYellowText
+{
+    font-weight: 700;
+    background-color: #ffff00
+}
+.dtGreenText
+{
+    font-weight: 700;
+    background-color: #00ff00
+}
+.dtWarningText
+{
+    font-weight: bold;
+    font-size: 10pt;
+    color: red;
+}
+
+.dtNormal
+{
+    font-weight: normal;
+    font-size: 10pt;
+ 
+}
+
+.dtNormalSmall
+{
+	font-weight: normal;
+	font-size: 8pt;
+}
+
+.dtDash
+{
+    BORDER-TOP-WIDTH: thin;
+    BORDER-RIGHT: silver thin dashed;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-LEFT-color: silver;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-BOTTOM-color: silver;
+    BORDER-TOP-color: silver;
+    BORDER-COLLAPSE: collapse
+}
+.dtHTBbkg
+{
+	background-color:#3878da;
+    BORDER: 1px solid #2a61b6;
+    HEIGHT:21px;
+    text-align:center;
+	border-collapse:collapse;
+}
+
+
+.dtHTBShade
+{
+    BORDER: 1px solid #ffb600;
+    text-align:center;
+    background-color:#3878da;
+}
+
+.dtHTBA:hover
+{
+    background-color:#6d9de6;
+}
+
+
+
+.dtHTBA
+{
+    font-size: 8pt;
+    color: #ffffff;
+    TEXT-DECORATION: none;
+    display:block;
+    line-height: 21px;
+    font-weight:bold;
+}
+.dtHTBSpacer
+{
+    font-size: 8pt;
+}
+.dtHTBDash
+{
+    BORDER-TOP: silver thin dashed;
+    BORDER-LEFT-WIDTH: thin;
+    BORDER-LEFT-color: silver;
+    BORDER-BOTTOM-WIDTH: thin;
+    BORDER-BOTTOM-color: silver;
+    BORDER-COLLAPSE: collapse;
+    BORDER-RIGHT-WIDTH: thin;
+    BORDER-RIGHT-color: silver
+}
+.classLabelbgShade
+{
+    background-color: gainsboro
+}
+.contentTable
+{
+    BORDER-RIGHT: #a7a9ac 1px solid;
+}
+.dtMealHeadSmall
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #ffffff;
+}
+.dtMealTable
+{
+    BORDER-RIGHT: #a7a9ac 1px solid;
+    BORDER-TOP: #a7a9ac 1px solid;
+    BORDER-LEFT: #a7a9ac 1px solid;
+    BORDER-BOTTOM: #a7a9ac 1px solid
+}
+
+.dtTipLegend
+{
+    font-weight: bold;
+    font-size: 10pt;
+    color: #414042;
+}
+.dtTipFieldSet
+{
+    BORDER-TOP-STYLE: ridge;
+    BORDER-RIGHT-STYLE: ridge;
+    BORDER-LEFT-STYLE: ridge;
+    BORDER-BOTTOM-STYLE: ridge
+}
+
+.ThefollowingareFormLevel
+{
+}
+.classHeaderOption
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #3878da;
+    font-style: normal;
+    border-bottom: 1px solid #1868aa;
+}
+.dtPageTitle, .dtTabHeader
+{
+    font-size: 12pt;
+    color: #278872;
+    font-style: normal;
+    line-height:25px;
+    text-transform:uppercase;
+}
+.dtPageTitleSub
+{
+    font-weight: normal;
+    font-size: 14pt;
+    color: #000000;
+    font-style: normal;
+}
+.dtPageTitleTextCell
+{
+    PADDING-LEFT: 5px
+}
+.dtPageTitleText
+{
+    font-weight: normal;
+    font-size: 8pt;
+    font-style: normal;
+    color:#777777;
+}
+
+.dtTableBorder
+{
+    
+    BORDER: #add7ff 1px solid;
+    background-color: #ffffff
+}
+.dtPageTips
+{
+    border: solid #ddecf3 1px;
+    background-color: #ddecf3;
+}
+.dtPageTipsA
+{
+    font-weight: normal;
+    font-size: 10px;
+    color: #777777;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+.classLabelHDR
+{
+    HEIGHT: 18px;
+    background-color: #A4BED9; /* jpjpjpjp */
+}
+.classLabelHDRFont
+{
+    font-weight: normal;
+    font-size: 11pt;
+    color: #ffffff;
+    FONT-VARIANT: normal
+}
+.classLabel
+{
+    font-size: 8pt;
+    font-size: 13px;
+    font-weight: normal;
+    color:#333333;
+     
+}
+.classLabelTop
+{
+    font-weight: normal;
+    font-size: 11pt;
+    color: #ffffff;
+    FONT-VARIANT: normal
+}
+.classLabelTopFont
+{
+    font-weight: normal;
+    font-size: 11pt;
+    color: #ffffff;
+    FONT-VARIANT: normal
+}
+.dtColoumHeader
+{
+    background-color: #add7ff;
+}
+
+.dtColumnHeaderSmallFont
+{
+	font-size: 8pt;
+	color: #ffffff;
+}
+
+
+.dtColoumHeaderFont
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #515151;
+}
+.dtColumnHeaderA
+{
+    font-weight: normal;
+    font-size: 10px;
+    color: #FFFFFF;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+.dtColumnFooterFont
+{
+    font-weight: bold;
+    font-size: 10pt;
+    color: #777777;
+}
+.dtSubmitBtn
+{
+ font-size: 11px;
+ font-weight:bold;
+ text-transform: capitalize; 
+ letter-spacing: 1pt; 
+}
+.dtSubmitBtnWide
+{
+    font-size: 11px;
+}
+.dtPageSeperator
+{
+    BORDER-BOTTOM: #CCCCCC 1px solid
+}
+.dtSubmitSM
+{
+    font-size: 10px;
+}
+.dtRequired
+{
+    font-size: 10px;
+    color: red;
+    background-color: #FFFFFF
+}
+.dtMealFooterImageLeft
+{
+    BORDER-TOP: 10px solid #A4BED9;
+    BACKGROUND-IMAGE: url('/dt/images/sheet_paper.gif');
+    BORDER-LEFT: 10px solid #A4BED9;
+    BORDER-BOTTOM: 10px solid #A4BED9; 
+}
+.dtMealFooterImageRight
+{
+    BORDER-TOP: 10px solid #A4BED9;
+    BACKGROUND-IMAGE: url('/dt/images/sheet_paper.gif');
+    BORDER-LEFT: 5px solid #A4BED9;
+    BORDER-BOTTOM: 10px solid #A4BED9; 
+}
+.dtMealFooterTextLeft
+{
+    BORDER-RIGHT: #A4BED9 5px solid;
+    BORDER-TOP: #A4BED9 10px solid;
+    BORDER-BOTTOM: #A4BED9 10px solid
+}
+.dtMealFooterTextRight
+{
+    BORDER-RIGHT: #A4BED9 10px solid;
+    BORDER-TOP: #A4BED9 10px solid;
+    BORDER-BOTTOM: #A4BED9 10px solid
+}
+.dtMealSaveAllTop
+{
+    FONT: bold 9pt Verdana;
+}
+.dtPageTextA
+{
+    font-weight: normal;
+    font-size: 11px;
+    color: #000000;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+.dtHelpBody
+{
+    background-color: #ffffff
+}
+.dtHelpTitle
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #3232ff;
+}
+.dtHelpSubTitle
+{
+    font-weight: bold;
+    font-size: 14px;
+    color: #3232ff;
+}
+.dtHelpText
+{
+    font-weight: normal;
+    font-size: 12px;
+    color: #3232ff;
+}
+.dtHelpClose
+{
+    font-weight: bolder;
+    font-size: 12px;
+    color: #ffffff;
+    LINE-HEIGHT: 1.5;
+    background-color: blue;
+    TEXT-DECORATION: underline
+}
+.dtCalBody
+{
+    background-color: #FFFFFF
+}
+.ctHDR
+{
+    font-weight: bold;
+    font-size: 10pt;    background-color: #0080c0
+}
+.dtPageSeperatorLight
+{
+    BORDER-RIGHT: #CCCCCC 1px;
+    BORDER-TOP: #CCCCCC 1px;
+    BORDER-LEFT: #CCCCCC 1px;
+    BORDER-BOTTOM: #CCCCCC 1px solid
+}
+.dtGridA
+{
+    font-weight: normal;
+    font-size: 9pt;
+    color: #3878da;
+    text-decoration:none;
+}
+.dtGridA:hover
+{
+    color: #77afff;
+    text-decoration:underline;
+}
+
+.dtTableBorderTopLeft
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: #b20176 1px solid;
+    BORDER-LEFT: #b20176 1px solid;
+    BORDER-BOTTOM: 1px
+}
+.dtTableBorderLeft
+{
+    BORDER-LEFT: #b20176 1px solid
+}
+.dtTableBorderRight
+{
+    BORDER-RIGHT: #b20176 1px solid;
+    BORDER-TOP: #b20176 1px;
+    BORDER-LEFT: #b20176 1px;
+    BORDER-BOTTOM: #b20176 1px
+}
+.dtTableBorderLeftBottom
+{
+    BORDER-RIGHT: #669999 1px;
+    BORDER-TOP: #669999 1px;
+    BORDER-LEFT: #669999 1px solid;
+    BORDER-BOTTOM: #669999 1px solid
+}
+.dtTableBorderRightBottom
+{
+    BORDER-RIGHT: #669999 1px solid;
+    BORDER-BOTTOM: #669999 1px solid
+}
+.classHeaderOption2
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color:Red;
+}
+.dtAnswerText
+{
+    font-weight:bold;
+    font-size: 11px;
+    color: #99CC00;
+}
+.dtGraphLabel
+{
+    font-weight: bold;
+    font-size: 10pt;
+    color: #000000;
+}
+.dtTourTopLeft
+{
+	background-color:#A4BED9;
+	font-size:16pt;
+	font-weight:bolder;
+	color:#FFFFFF;
+}
+.dtTourTopRight
+{
+	background-color:#A4BED9;
+	font-size:14pt;
+	font-weight:bolder;
+	color:#FFFFFF;
+}
+.dtTourMenuBgColor
+{ 
+    background-color:#557292
+}
+.dtTourMenuSelected
+{
+	font-weight:bold;
+    font-size: 9pt;
+    color: #ffffff;
+}
+.dtTourA
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #99CCFF;
+}
+.dtTourBody
+{
+	background-color:#FFFFFF
+}
+.dtAdminTD
+{
+	background-color: #FFC726;
+	color: #004376;
+	text-align: center;
+}
+.dtAdminSubTD
+{
+	background-color: #A4BED9;
+	color: #000000;
+	text-align: center;
+	font: bold 10pt Verdana;
+}
+a.dtAdmin-link
+{
+	color: #004376; 
+	text-decoration: none;
+	font: bold 10pt Verdana;
+}
+a.dtAdmin-link:hover
+{
+	color: #FF0000;
+}
+a.dtAdmin-Sublink
+{
+	color: #000000; 
+	font: bold 10pt Verdana;
+}
+a.dtAdmin-Sublink:hover
+{
+	color: #FF0000;
+}
+.dtAdminBanner
+{
+    BACKGROUND-IMAGE: url('/dt/images/ds_home_header_left.gif')
+}
+.ctTablerow {
+  background: none #ffffcc; border: solid #000000 1px; color: #000000;
+  margin-top: 0; margin-right: auto; margin-bottom: 0; margin-left: auto;
+  padding: 0; text-align: center; width: 96%;
+}
+.ctRowUnder
+{
+    border-bottom-style: solid; 
+	border-bottom-width: 1px
+}
+.links 
+{
+	font-size: 13px;
+	color: #555555;
+	font-weight: normal;
+	border-right-width:thick;
+}
+.dtHomePageTitle
+{
+	color:#0877BE; 
+	font-size:15pt;
+	font-weight:bold;
+}
+.dtAHomePage
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #99CC00;
+    LINE-HEIGHT: 1.5;
+    TEXT-DECORATION: underline
+}
+
+.dtHomeBorderInfo
+{
+    BORDER-TOP: #92B30C 1px solid;
+}
+
+.PageSubTop
+{
+	font-weight: bold;
+	font-size: 12pt;
+	font-style: normal;
+
+	color: #ffffff;
+}
+
+.toplink
+{
+    font-weight: bold;
+    font-size: 7pt;
+    color: #c3df00;
+    TEXT-DECORATION: underline}
+    
+.dtBAR
+{
+    background-color: #A4BED9;
+}
+.HRAErrorLabel
+{
+    /*font-family:Verdana;*/
+     font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+    font-size:10pt;
+    color:Red;
+    font-weight:bold;
+}
+.HideShowLinks
+{
+    /*font-family:Verdana;*/
+     font-family: "Segoe UI","Helvetica Neue","Lucida Unicode Sans", "Open Sans", Arial, sans-serif;
+    cursor:pointer;
+    color:#0077d4;
+    text-decoration:none;
+    font-size:9pt;       
+}
+.HideShowLinks:Hover
+{
+    text-decoration:underline;
+}
+.dtHRAImageOn
+{
+    width:35%;
+    vertical-align:top;
+}
+.dtHRAImageOff
+{
+    width:65%;
+    vertical-align:top;
+}
+.dtTableRowSelect
+{
+    background-color: #DAE8F1;
+}
+.rtAppContainer
+{
+    background-color:#FEFEFE;
+    width:100%;
+
+}
+
+#Disclaimer1_HRA_Disclaimer_Text
+{
+    display: none;
+}

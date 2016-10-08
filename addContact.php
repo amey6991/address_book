@@ -146,7 +146,7 @@ include_once 'ajax_functions.php'
 						<div class="col-lg-6 col-md-6 col-sm-16">
 							<div class="row">
 								<div class="col-lg-12 col-md-12 col-sm-12">
-									Add Contact Information</br>
+									<center><h2>Add Contact Information</h2></center></br>
 									<span id="idResponseMsg"></span>
 								</div>
 								<div class="col-lg-12 col-md-12 col-sm-12" style="margin-top:10px;">
@@ -256,7 +256,7 @@ include_once 'ajax_functions.php'
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-3 col-lg-3">
-							<input type="button" class="btn btn-info" value="View All" id="idButtonViewAll" onclick="showAll()">
+							<input type="button" class="btn btn-info" value="View All" id="idButtonViewAll" style="margin-top:5px;" onclick="showAll()">
 						</div>
 					</div>
 			</div>

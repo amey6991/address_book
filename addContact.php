@@ -53,6 +53,7 @@ include_once 'ajax_functions.php'
 
 			if(sFirstName ==''){
 				alert('FirstName is empty');
+				return false;
 			}
 			// This is not required
 			// if(aEmail.length == 0){

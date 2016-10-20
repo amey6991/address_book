@@ -64,6 +64,7 @@ include_once 'ajax_functions.php'
 			  		document.getElementById("idResponseMsg").innerHTML = 'Contact Information Saved.';
 			  	}else{
 			  		document.getElementById("idResponseMsg").innerHTML = 'Contact Information Not Saved.';
+			  		document.getElementById("idFormAddContact").reset();
 			  	}
 			  }
 			};
@@ -140,22 +141,27 @@ include_once 'ajax_functions.php'
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12">
 					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-3">
-							Hello
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-16">
+						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="row">
 								<div class="col-lg-12 col-md-12 col-sm-12">
-									<center><h2>Add Contact Information</h2></center></br>
-									<span id="idResponseMsg"></span>
+									<div class="col-lg-10 col-md-10 col-sm-10">
+										<center><h2>Add Contact Information</h2></center></br>	
+										<span id="idResponseMsg"></span>
+									</div>
+									<div class="col-lg-2 col-md-2 col-sm-2">
+										<input type="button" class="btn btn-info" value="View All" id="idButtonViewAll" style="margin-top:5px;" onclick="showAll()">
+									</div>
 								</div>
 								<div class="col-lg-12 col-md-12 col-sm-12" style="margin-top:10px;">
-									<form class="form-horizontal" id="idFormAddContact" >
+									<div class="col-lg-3 col-md-3 col-sm-3">
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<form class="form-horizontal" id="idFormAddContact" >
 										<div class="form-group">
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												First Name
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control" id="idFirstName">
 											</div>
 										</div>
@@ -164,7 +170,7 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												Last Name
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control" id="idLastName">
 											</div>
 										</div>
@@ -173,22 +179,22 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												Email
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control classEmail" id="idEmail_1">
 											</div>
-											<div class="col-lg-2 col-md-2 col-sm-2 hide">
+											<div class="col-lg-4 col-md-4 col-sm-4 hide">
 												<button><i class="fa fa-plus" aria-hidden="true"></i></button>
 											</div>
 										</div>
 		                               	<div class="form-group">
 											<div class="col-lg-4 col-md-4 col-sm-4">
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6" id="idEmailAppend">
+											<div class="col-lg-8 col-md-8 col-sm-8" id="idEmailAppend">
 												
 											</div>
 										</div>
 		                                <div class="form-group">
-		                                    <div class="pull-right" style="margin-right:138px;">
+		                                    <div class="col-lg-3 col-md-3 col-sm-3 pull-right" style="">
 		                                        <a data-add-email href="#" id="idAddMoreEmail" onclick="addMoreEMail()"><em>Add More Email</em></a>
 		                                    </div>
 		                                </div>
@@ -196,19 +202,19 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												Mobile Number
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control classMobile" id="idMobile_1">
 											</div>
 										</div>
 		                               	<div class="form-group">
 											<div class="col-lg-4 col-md-4 col-sm-4">
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6" id="idMobileAppend">
+											<div class="col-lg-8 col-md-8 col-sm-8" id="idMobileAppend">
 												
 											</div>
 										</div>
 		                                <div class="form-group">
-		                                    <div class="pull-right" style="margin-right:138px;">
+		                                    <div class="col-lg-3 col-md-3 col-sm-3 pull-right" style="">
 		                                        <a data-add-mobile-number href="#" id="idAddMoreMobile" onclick="addMoreMobile()"><em>Add More Mobile</em></a>
 		                                    </div>
 		                                </div>
@@ -216,7 +222,7 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												State
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control" id="idState">
 											</div>
 										</div>
@@ -224,7 +230,7 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												City
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<input type="text" class="form-control" id="idCity">
 											</div>
 										</div>
@@ -232,31 +238,31 @@ include_once 'ajax_functions.php'
 											<div class="col-lg-4 col-md-4 col-sm-4">
 												Address
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6">
+											<div class="col-lg-8 col-md-8 col-sm-8">
 												<textarea type="text" class="form-control classAddress" id="idAddress_1"></textarea>
 											</div>
 										</div>
 										<div class="form-group">
 											<div class="col-lg-4 col-md-4 col-sm-4">
 											</div>
-											<div class="col-lg-6 col-md-6 col-sm-6" id="idAddressAppend">
+											<div class="col-lg-8 col-md-8 col-sm-8" id="idAddressAppend">
 												
 											</div>
 										</div>
 		                                <div class="form-group">
-		                                    <div class="pull-right" style="margin-right:138px;">
+		                                    <div class="col-lg-3 col-md-3 col-sm-3 pull-right" style="">
 		                                        <a data-add-address-number href="#" id="idAddMoreAddress" onclick="addMoreAddress()"><em>Add More Address</em></a>
 		                                    </div>
 		                                </div>
-									</form>
+										</form>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3">
+									</div>
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 pull-right">
-									<input type="button" id="idAddContact" onclick="addContact()" class="btn btn-primary" value="Save">
+									<input type="button" id="idAddContact" onclick="addContact()" class="btn btn-success btn-lg" value="Save">
 								</div>
 							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-lg-3">
-							<input type="button" class="btn btn-info" value="View All" id="idButtonViewAll" style="margin-top:5px;" onclick="showAll()">
 						</div>
 					</div>
 			</div>

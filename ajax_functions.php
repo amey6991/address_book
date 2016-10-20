@@ -22,4 +22,10 @@
 			echo false;
 		}
 	}
+
+	if($sFlag=='getAllContactsWithFilter'){
+		$iValue = $_GET['iValue'];
+		$aAddress = getAllContactForFilter($iValue);
+		echo json_encode($aAddress);
+	}
 ?>

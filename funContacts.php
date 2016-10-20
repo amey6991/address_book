@@ -81,4 +81,171 @@
 	    	}
 	    }
 	}
+
+	function getAllContact(){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+		
+		$sTableMaster = 'app_contact_master';
+		
+		$sQuery = "SELECT * FROM {$sTableMaster} WHERE status=1";
+		$aAllList = array();
+		
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $iContactID = $aRow['contact_id'];
+	                $aEmail = getAllEmailForContact($iContactID);
+	                $aMobile = getAllMobileForContact($iContactID);
+	                $aAddress = getAllAddressForContact($iContactID);
+	                $aRow['mobile']=$aMobile;
+	                $aRow['email']=$aEmail;
+	                $aRow['address']=$aAddress;
+	                $aAllList[] = $aRow;
+	            }
+	        }
+	    }
+	    return $aAllList;
+	}
+
+	function getAllEmailForContact($iContactID){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+
+		$sTableEmail = 'contact_email_master';
+		
+		$sQuery = "SELECT * FROM {$sTableEmail} WHERE `status`=1 AND `master_id`={$iContactID}";
+		$aAllEmail = array();
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $aAllEmail[]=$aRow['email'];
+	            }
+	        }
+	    }
+	    return $aAllEmail;
+	}
+	// function to query with filter
+	function getAllEmailForContactByFilter($iContactID){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+
+		$sTableEmail = 'contact_email_master';
+		
+		$sQuery = "SELECT * FROM {$sTableEmail} WHERE `status`=1 AND `master_id`={$iContactID} order by email asc";
+		$aAllEmail = array();
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $aAllEmail[]=$aRow['email'];
+	            }
+	        }
+	    }
+	    return $aAllEmail;
+	}
+	// function to query with filter
+	function getAllMobileForContactByFilter($iContactID){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+
+		$sTableMobile = 'contact_mobile_master';
+		
+		$sQuery = "SELECT * FROM {$sTableMobile} WHERE `status`=1 AND `master_id`={$iContactID} order by mobile asc";
+		$aAllMobile = array();
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $aAllMobile[]=$aRow['mobile'];
+	            }
+	        }
+	    }
+	    return $aAllMobile;
+	}
+
+	function getAllMobileForContact($iContactID){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+
+		$sTableMobile = 'contact_mobile_master';
+		
+		$sQuery = "SELECT * FROM {$sTableMobile} WHERE `status`=1 AND `master_id`={$iContactID}";
+		$aAllMobile = array();
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $aAllMobile[]=$aRow['mobile'];
+	            }
+	        }
+	    }
+	    return $aAllMobile;
+	}
+
+	function getAllAddressForContact($iContactID){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+
+		$sTableAddress = 'contact_address_master';
+		
+		$sQuery = "SELECT * FROM {$sTableAddress} WHERE `status`=1 AND `master_id`={$iContactID}";
+		$aAllAddress = array();
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $aAllAddress[]=$aRow['address'];
+	            }
+	        }
+	    }
+	    return $aAllAddress;
+
+	
+	}
+
+	function getAllContactForFilter($iValue){
+		$DBMan = new DBConnManager();
+	    $conn =  $DBMan->getConnInstance();
+		
+		$sTableMaster = 'app_contact_master';
+		
+		if($iValue==1){
+			$sQuery = "SELECT * FROM {$sTableMaster} WHERE status=1 order by contact_id asc";
+		}else if($iValue==2){
+			$sQuery = "SELECT * FROM {$sTableMaster} WHERE status=1 order by first_name asc";
+		}else{
+			$sQuery = "SELECT * FROM {$sTableMaster} WHERE status=1";
+		}
+		
+		$aAllList = array();
+		
+		if($conn != false){
+			$sSQueryR = $conn->query($sQuery);
+	        if($sSQueryR!==FALSE){
+	            while($aRow = $sSQueryR->fetch_assoc()){
+	                $iContactID = $aRow['contact_id'];
+	                if($iValue==3){
+	                	$aMobile = getAllMobileForContactByFilter($iContactID);
+	                }else{
+	                	$aMobile = getAllMobileForContact($iContactID);
+	                }
+
+	                if($iValue==4){
+	                	$aEmail = getAllEmailForContactByFilter($iContactID);
+	                }else{
+	                	$aEmail = getAllEmailForContact($iContactID);
+	                }
+					$aAddress = getAllAddressForContact($iContactID);
+	                $aRow['mobile']=$aMobile;
+	                $aRow['email']=$aEmail;
+	                $aRow['address']=$aAddress;
+	                $aAllList[] = $aRow;
+	            }
+	        }
+	    }
+	    return $aAllList;
+	}
 ?>

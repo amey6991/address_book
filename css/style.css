@@ -623,3 +623,21 @@ a.classDashboardBtn:hover{
 .classDoctorAvailModal .select2-container{
   text-align: left;
 }
+
+#idGridPanel{
+  height: 22vh;
+  overflow-y: scroll;
+  width: 100%
+}
+.classFilerList{
+  
+}
+#idResponseMsg{
+  font-size: 22px;
+  color: green;
+  padding-left: 30%;
+}
+
+.classRightMargin{
+  margin-left: 10px;
+}

@@ -2,7 +2,7 @@
 
 <link rel='shortcut icon' href='images/favicon.ico' type='image/x-icon' >
 
-<script src="js/jquery-1.9.0.js"></script>
+<script src="js/jquery-2.2.2.js"></script>
 <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
 <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
 <!-- Latest compiled and minified JavaScript -->

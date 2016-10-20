@@ -10,6 +10,11 @@ include_once 'ajax_functions.php'
 		$(document).ready(function(){
 			
 		});
+		
+		function clearContactFrom(){
+			document.getElementById("idFormAddContact").reset();
+		}
+
 		function addContact(){
 			var sFirstName = document.getElementById('idFirstName').value;
 			var sLastName = document.getElementById('idLastName').value;
@@ -261,6 +266,7 @@ include_once 'ajax_functions.php'
 								</div>
 								<div class="col-lg-6 col-md-6 col-sm-6 pull-right">
 									<input type="button" id="idAddContact" onclick="addContact()" class="btn btn-success btn-lg" value="Save">
+									<input type="button" id="idAddContact" onclick="clearContactFrom()" class="btn btn-success btn-lg" value="Clear">
 								</div>
 							</div>
 						</div>

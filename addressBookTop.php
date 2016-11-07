@@ -4,9 +4,9 @@
 
 <script src="js/jquery-2.2.2.js"></script>
 <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
-<!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript" src="js/bootstrap-timepicker.min.js"></script>
 <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
@@ -15,13 +15,13 @@
 <script type="text/javascript" src="assets/moment/moment.js"></script> -->
 
 <link rel="stylesheet" href="css/jquery-ui-1.10.0.custom.min.css" />
-<!-- <link type='text/css'  rel='stylesheet' href='css/bootstrap.min.css'/> -->
+<link type='text/css'  rel='stylesheet' href='css/bootstrap.min.css'/>
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+<link type='text/css'  rel='stylesheet' href='css/bootstrap-theme.min.css'/>
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ -->
 <!-- <link type='text/css' rel="stylesheet" href='css/bootstrap-combined.min.css' />
 <link type='text/css' rel="stylesheet" href="css/bootstrap-responsive.css" /> -->
 <link rel="stylesheet" href='css/style_art.css' />

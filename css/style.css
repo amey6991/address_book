@@ -626,7 +626,8 @@ a.classDashboardBtn:hover{
 
 #idGridPanel{
   height: 22vh;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
   width: 100%
 }
 .classFilerList{
@@ -639,5 +640,5 @@ a.classDashboardBtn:hover{
 }
 
 .classRightMargin{
-  margin-left: 10px;
+  /*margin-right: 50px;*/
 }

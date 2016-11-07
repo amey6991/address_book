@@ -26,17 +26,17 @@ $sAllList = json_encode($aAllList);
 							<a href="#" onclick="displayFilter(2)" class="btn btn-primary classApplyFilter">Filter</a>
 							<ul class="dropdown-menu classDropdownMenu" id="idFilterMenu_2" role="menu" style="display:none">
 								<li id="idSortByID" class="classFilerList">
-										<a id="1" href="#" onclick="applyFilter(this.id,2)" class="pull-left">Sort By ID <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a id="1" href="#" onclick="applyFilter(this.id,2)" class="pull-left">Sort By ID <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_1"></i></a>
 										
 								</li>
 								<li id="idSortByName" class="classFilerList">
-									<a class="pull-left" id="2" href="#" onclick="applyFilter(this.id,2)">Sort By FirstName <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="2" href="#" onclick="applyFilter(this.id,2)">Sort By FirstName <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_2"></i></a>
 								</li>
 								<li id="idSortByMobile" class="classFilerList">
-									<a class="pull-left" id="3" href="#" onclick="applyFilter(this.id,2)">Sort By Mobile <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="3" href="#" onclick="applyFilter(this.id,2)">Sort By Mobile <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_3"></i></a>
 								</li>
 								<li id="idSortByEmail" class="classFilerList">
-									<a class="pull-left" id="4" href="#" onclick="applyFilter(this.id,2)">Sort By Email <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="4" href="#" onclick="applyFilter(this.id,2)">Sort By Email <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_4"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -83,17 +83,17 @@ $sAllList = json_encode($aAllList);
 							<a href="#" onclick="displayFilter(1)" class="btn btn-primary classApplyFilter">Filter</a>
 							<ul class="dropdown-menu classDropdownMenu" id="idFilterMenu_1" role="menu" style="display:none">
 								<li id="idSortByID" class="classFilerList">
-										<a id="1" href="#" onclick="applyFilter(this.id,3)" class="pull-left">Sort By ID <i class="fa fa-check pull-right classRightMargin"></i></a>
+										<a id="1" href="#" onclick="applyFilter(this.id,3)" class="pull-left">Sort By ID <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_1"></i></a>
 										
 								</li>
 								<li id="idSortByName" class="classFilerList">
-									<a class="pull-left" id="2" href="#" onclick="applyFilter(this.id,3)">Sort By FirstName <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="2" href="#" onclick="applyFilter(this.id,3)">Sort By FirstName <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_2"></i></a>
 								</li>
 								<li id="idSortByMobile" class="classFilerList">
-									<a class="pull-left" id="3" href="#" onclick="applyFilter(this.id,3)">Sort By Mobile <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="3" href="#" onclick="applyFilter(this.id,3)">Sort By Mobile <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_3"></i></a>
 								</li>
 								<li id="idSortByEmail" class="classFilerList">
-									<a class="pull-left" id="4" href="#" onclick="applyFilter(this.id,3)">Sort By Email <i class="fa fa-check pull-right classRightMargin"></i></a>
+									<a class="pull-left" id="4" href="#" onclick="applyFilter(this.id,3)">Sort By Email <i class="fa fa-check pull-right classRightMargin" style="display:none;" id="classRightMargin_4"></i></a>
 								</li>
 							</ul>
 						</div>
@@ -171,27 +171,27 @@ $sAllList = json_encode($aAllList);
 			sContent+='<td>'+sState+'</td>';
 
 			sContent+='</tr>';
-			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3' id='idGridTemplateBox'>";
+			sGridBox+="<div class='col-lg-4 col-md-4 col-sm-4' id='idGridTemplateBox'>";
 			sGridBox+="<div class='panel panel-primary'>";
 			sGridBox+="<div class='panel-heading'>#"+iContactID+" - "+sFullName+"</div>";
 			sGridBox+="<div class='panel-body' id='idGridPanel'>";
 			
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>Name</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sFullName+"</div>";
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sFullName+"</div>";
 			
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>Email</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sEmail+"</div>";		
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sEmail+"</div>";		
 		
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>Mobile</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sMobile+"</div>";
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sMobile+"</div>";
 
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>City</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sCity+"</div>";
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sCity+"</div>";
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>State</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sState+"</div>";
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sState+"</div>";
 
 			sGridBox+="<div class='col-lg-3 col-md-3 col-sm-3'>Address</div>";
-			sGridBox+="<div class='col-lg-8 col-md-8 col-sm-8'>"+sAddress+"</div>";
+			sGridBox+="<div class='col-lg-9 col-md-9 col-sm-9'>"+sAddress+"</div>";
 				
 			sGridBox+="</div>";
 			sGridBox+="</div>";
@@ -244,6 +244,29 @@ $sAllList = json_encode($aAllList);
 			sBody.innerHTML = sContent;
 			
 			prepareView(sAllList,iDisplay);
+
+			if(iValue==1){
+				document.getElementById("classRightMargin_1").style.display='block';
+				document.getElementById("classRightMargin_2").style.display='none';
+				document.getElementById("classRightMargin_3").style.display='none';
+				document.getElementById("classRightMargin_4").style.display='none';
+			}else if(iValue==2){
+				document.getElementById("classRightMargin_1").style.display='none';
+				document.getElementById("classRightMargin_2").style.display='block';
+				document.getElementById("classRightMargin_3").style.display='none';
+				document.getElementById("classRightMargin_4").style.display='none';
+			}else if(iValue==3){
+				document.getElementById("classRightMargin_1").style.display='none';
+				document.getElementById("classRightMargin_2").style.display='none';
+				document.getElementById("classRightMargin_3").style.display='block';
+				document.getElementById("classRightMargin_4").style.display='none';
+			}else if(iValue==4){
+				document.getElementById("classRightMargin_1").style.display='none';
+				document.getElementById("classRightMargin_2").style.display='none';
+				document.getElementById("classRightMargin_3").style.display='none';
+				document.getElementById("classRightMargin_4").style.display='block';
+			}
+			
 		  }
 		};
 		xhttp.open("GET", "ajax_functions.php?sFlag=getAllContactsWithFilter&iValue="+iValue+"", true);
